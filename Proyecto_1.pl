@@ -1,3 +1,4 @@
+%Aulas
 aula(nh101, 50, 10).
 aula(nh201, 50, 10).
 aula(nh301, 50, 10).
@@ -80,7 +81,7 @@ aula(bgu3l, 98, 9).
 aula(t66ii, 67, 10).
 aula(nh0vp, 72, 11).
 aula(aq40m, 48, 12).
-
+%Estudiantes
 estudiante(2000100001, 1, [math101, phys201, ec201,hist301]) .
 estudiante(2000100002, 1, [math101, phys301, hist301]).
 estudiante(2000100003, 1, [phys301, hist301]) .
@@ -194,7 +195,7 @@ estudiante(2008762613, 0, [math101, phys201, filo906]).
 estudiante(2008762614, 1, [math101, phys201, ec201, prog505, struc123]).
 estudiante(2008762615, 0, [phys201, ec201, hist301, cmpe150, geo402, prog505]).
 estudiante(2008762616, 1, [cmpe150, amb109, geo402, filo906, struc123]).
-
+%Fecha Examenes
 fechaexam(sel406, ['15.04.2020', '25.05.2020', '04.06.2020']).
 fechaexam(math101, ['17.04.2020', '15.05.2020', '04.06.2020']).
 fechaexam(phys201, ['15.04.2020', '19.05.2020', '05.06.2020']).
@@ -205,3 +206,5 @@ fechaexam(geo402, ['17.04.2020', '15.05.2020', '04.06.2020']).
 fechaexam(filo906, ['15.04.2020', '19.05.2020', '05.06.2020']).
 fechaexam(ccc414, ['16.04.2020', '20.05.2020', '02.06.2020']).
 fechaexam(ccc502, ['14.04.2020', '21.05.2020', '01.06.2020']).
+
+
