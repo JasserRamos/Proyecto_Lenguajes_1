@@ -207,4 +207,8 @@ fechaexam(filo906, ['15.04.2020', '19.05.2020', '05.06.2020']).
 fechaexam(ccc414, ['16.04.2020', '20.05.2020', '02.06.2020']).
 fechaexam(ccc502, ['14.04.2020', '21.05.2020', '01.06.2020']).
 
-
+comparar(X,X).
+busqueda(X,[H|T]):- comparar(X,H);busqueda(X,T).
+lista_clases_estudiantes(ID, X):- estudiante(ID,_,X).
+%Ejercico 1
+lista_estudiantes(ID, LES):- findall(X,(lista_clases_estudiantes(IDES,CLSES),busqueda(ID,CLSES),comparar(IDES,X)), LES).
