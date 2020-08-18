@@ -212,3 +212,6 @@ busqueda(X,[H|T]):- comparar(X,H);busqueda(X,T).
 lista_clases_estudiantes(ID, X):- estudiante(ID,_,X).
 %Ejercico 1
 lista_estudiantes(ID, LES):- findall(X,(lista_clases_estudiantes(IDES,CLSES),busqueda(ID,CLSES),comparar(IDES,X)), LES).
+
+%Ejercicio 2
+lista_fechas(ID,F):- findall(X,(lista_clases(ID,CLS),busqueda(CL,CLS),fechaexam(CL,X)),F).
