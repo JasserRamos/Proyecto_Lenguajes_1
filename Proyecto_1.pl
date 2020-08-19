@@ -215,3 +215,12 @@ lista_estudiantes(ID, LES):- findall(X,(lista_clases_estudiantes(IDES,CLSES),bus
 
 %Ejercicio 2
 lista_fechas(ID,F):- findall(X,(lista_clases(ID,CLS),busqueda(CL,CLS),fechaexam(CL,X)),F).
+
+
+%Ejercicio 3
+miembro_de_la_clase(X, [X|_]).
+miembro_de_la_clase(X, [_|Y]):- miembro_de_la_clase(X, Y).
+estudiantes_zurdos(M, L):- findall(X, (estudiante(X,Z,Y), miembro_de_la_clase(M,Y), comparar(Z, 1)), L).
+tamanio_arreglo([], 0).
+tamanio_arreglo([_|X], L):-L is L2 + 1,tamanio_arreglo(X, L2).
+aulas_adecuadas(M,L):- findall(X,(aula(X,_,Z), estudiantes_zurdos(M,S), tamanio_arreglo(S,B), B<Z), L).
