@@ -153,48 +153,56 @@ estudiante(2008762571, 0, [math101, hist301, amb109, prog505, filo906]).
 estudiante(2008762572, 1, [math101, phys201, ec201, hist301, cmpe150, amb109, geo402, struc123]).
 estudiante(2008762573, 0, [math101, hist301, cmpe150, amb109, struc123]).
 estudiante(2008762574, 1, [phys201, ec201, hist301, geo402, struc123]).
-estudiante(2008762575, 0, [math101, phys201, hist301, amb109, geo402, struc123]).
-estudiante(2008762576, 1, [ec201, amb109, geo402, prog505, struc123]).
-estudiante(2008762577, 0, [math101, ec201, hist301, cmpe150, geo402, filo906]).
-estudiante(2008762578, 1, [math101, phys201, ec201, cmpe150, amb109, geo402, filo906, struc123]).
-estudiante(2008762579, 0, [math101, phys201, amb109, geo402, filo906, struc123]).
-estudiante(2008762580, 1, [math101, phys201, hist301, cmpe150, geo402, prog505, filo906]).
-estudiante(2008762581, 0, [ec201, hist301, cmpe150, amb109, filo906, struc123]).
-estudiante(2008762582, 1, [math101, hist301, cmpe150, amb109, geo402, prog505]).
-estudiante(2008762583, 0, [math101, ec201, cmpe150, geo402, prog505]).
-estudiante(2008762584, 1, [phys201, ec201, hist301, cmpe150, amb109, prog505]).
-estudiante(2008762585, 0, [math101, phys201, cmpe150, struc123]).
-estudiante(2008762586, 1, [hist301, amb109, filo906]).
-estudiante(2008762587, 0, [math101, ec201, hist301, amb109, geo402, filo906]).
-estudiante(2008762588, 1, [ec201, cmpe150, filo906, struc123]).
-estudiante(2008762589, 0, [cmpe150, geo402, prog505, filo906, struc123]).
-estudiante(2008762590, 1, [math101, phys201, ec201, amb109, struc123]).
-estudiante(2008762591, 0, [math101, phys201, hist301, amb109, struc123]).
-estudiante(2008762592, 1, [math101, prog505, filo906]).
-estudiante(2008762593, 0, [phys201, ec201, hist301, amb109, prog505]).
-estudiante(2008762594, 1, [hist301, cmpe150, geo402]).
-estudiante(2008762595, 0, [phys201, ec201, hist301, amb109, prog505, filo906]).
-estudiante(2008762596, 1, [math101, cmpe150, geo402, prog505]).
-estudiante(2008762597, 0, [math101, ec201, cmpe150, geo402, prog505, filo906, struc123]).
-estudiante(2008762598, 1, [math101, cmpe150, amb109, geo402, prog505]).
-estudiante(2008762599, 0, [math101, ec201, hist301, cmpe150, amb109, geo402, struc123]).
-estudiante(2008762600, 1, [ec201, hist301, cmpe150, amb109, geo402, prog505, struc123]).
-estudiante(2008762601, 0, [phys201, ec201, hist301, cmpe150, geo402, prog505, filo906, struc123]).
-estudiante(2008762602, 1, [math101, ec201, hist301, cmpe150, filo906, struc123]).
-estudiante(2008762603, 0, [ec201, hist301, amb109, prog505]).
-estudiante(2008762604, 1, [math101, phys201, ec201, hist301, amb109, geo402, prog505, filo906]).
-estudiante(2008762605, 0, [math101, phys201, hist301, amb109, prog505]).
-estudiante(2008762606, 1, [cmpe150, geo402, prog505, filo906]).
-estudiante(2008762607, 0, [phys201, amb109, geo402]).
-estudiante(2008762608, 1, [phys201, hist301, cmpe150, amb109, prog505]).
-estudiante(2008762609, 0, [math101, phys201, ec201, hist301, cmpe150, prog505, filo906]).
-estudiante(2008762610, 1, [math101, phys201, ec201, hist301, amb109, prog505, filo906]).
-estudiante(2008762611, 0, [math101, ec201, geo402, struc123]).
-estudiante(2008762612, 1, [math101, phys201, cmpe150, geo402, prog505]).
-estudiante(2008762613, 0, [math101, phys201, filo906]).
-estudiante(2008762614, 1, [math101, phys201, ec201, prog505, struc123]).
-estudiante(2008762615, 0, [phys201, ec201, hist301, cmpe150, geo402, prog505]).
-estudiante(2008762616, 1, [cmpe150, amb109, geo402, filo906, struc123]).
+estudiante(3000000001, 0, [mat103, bio201, tll314, cmp105]).
+estudiante(3000000002, 1, [his101, soc206, fil506]).
+estudiante(3000000003, 0, [mat103, soc206, fis103, lcp102, cmp105]).
+estudiante(3000000004, 0, [mat103, lcp103, ale501, fil506, ecu203]).
+estudiante(3000000005, 0, [ccc104, lcp103, lcp102, ecu203]).
+estudiante(3000000006, 1, [his101, bio201, adm102, tll314]).
+estudiante(3000000007, 1, [mat103, lcp103, adm102, fil506]).
+estudiante(3000000008, 1, [ccc104, bio201, fis103, tll314]).
+estudiante(3000000009, 0, [mat103, bio201, tll314, cmp105]).
+estudiante(3000000010, 1, [mat103, soc206, tll314, cmp105]).
+estudiante(3000000011, 0, [mat103, lcp103, fis103, tll314, ecu203]).
+estudiante(3000000012, 1, [mat103, lcp103, lcp102, cmp105]).
+estudiante(3000000013, 0, [mat103, soc206, tll314]).
+estudiante(3000000014, 0, [his101, bio201, tll314]).
+estudiante(3000000015, 1, [his101, lcp103, tll314]).
+estudiante(3000000016, 1, [mat103, soc206, tll314]).
+estudiante(3000000017, 1, [his101, soc206, ale501, lcp102, cmp105]).
+estudiante(3000000018, 1, [his101, soc206, adm102, tll314, cmp105]).
+estudiante(3000000019, 1, [mat103, lcp103, ale501, fil506, cmp105]).
+estudiante(3000000020, 1, [mat103, lcp103, fis103, tll314]).
+estudiante(3000000021, 1, [ccc104, soc206, ale501, lcp102, cmp105]).
+estudiante(3000000022, 0, [his101, bio201, fis103, fil506]).
+estudiante(3000000023, 0, [mat103, soc206, adm102, tll314]).
+estudiante(3000000024, 0, [mat103, bio201, adm102, tll314, ecu203]).
+estudiante(3000000025, 0, [his101, lcp103, fil506, cmp105]).
+estudiante(3000000026, 1, [ccc104, bio201, lcp102, cmp105]).
+estudiante(3000000027, 1, [ccc104, bio201, lcp102]).
+estudiante(3000000028, 0, [ccc104, soc206, ale501, fil506]).
+estudiante(3000000029, 0, [mat103, lcp103, lcp102]).
+estudiante(3000000030, 0, [ccc104, bio201, fil506, ecu203]).
+estudiante(3000000031, 1, [mat103, soc206, adm102, lcp102, cmp105]).
+estudiante(3000000032, 0, [his101, bio201, ale501, tll314, ecu203]).
+estudiante(3000000033, 1, [mat103, lcp103, fis103, tll314]).
+estudiante(3000000034, 0, [mat103, soc206, lcp102]).
+estudiante(3000000035, 0, [his101, bio201, tll314, cmp105]).
+estudiante(3000000036, 0, [mat103, soc206, tll314, cmp105]).
+estudiante(3000000037, 1, [ccc104, bio201, fis103, lcp102]).
+estudiante(3000000038, 1, [his101, bio201, ale501, tll314]).
+estudiante(3000000039, 0, [mat103, soc206, tll314, cmp105]).
+estudiante(3000000040, 0, [ccc104, bio201, fil506]).
+estudiante(3000000041, 0, [mat103, bio201, tll314]).
+estudiante(3000000042, 0, [ccc104, soc206, tll314]).
+estudiante(3000000043, 1, [his101, bio201, tll314]).
+estudiante(3000000044, 0, [mat103, bio201, fis103, fil506, cmp105]).
+estudiante(3000000045, 0, [mat103, lcp103, fil506]).
+estudiante(3000000046, 0, [mat103, lcp103, fil506, cmp105]).
+estudiante(3000000047, 1, [mat103, bio201, fis103, tll314]).
+estudiante(3000000048, 0, [his101, lcp103, fis103, tll314]).
+estudiante(3000000049, 1, [mat103, bio201, fil506, ecu203]).
+estudiante(3000000050, 1, [ccc104, lcp103, ale501, lcp102, cmp105]).
 %Fecha Examenes
 fechaexam(sel406, ['15.04.2020', '25.05.2020', '04.06.2020']).
 fechaexam(math101, ['17.04.2020', '15.05.2020', '04.06.2020']).
